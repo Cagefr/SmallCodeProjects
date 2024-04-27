@@ -23,7 +23,7 @@ namespace consoleProgram
                 size = size + 1; //Determines the size of the array. Could also use .length
             }
 
-            for(q = 0; q <= size; q++)
+            for(q = 0; q < size; q++)
             {
                 for(e = q + 1; e < size;  e++)
                 {
