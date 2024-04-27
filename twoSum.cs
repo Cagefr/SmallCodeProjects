@@ -25,9 +25,9 @@ namespace consoleProgram
 
             for(q = 0; q <= size; q++)
             {
-                for(e = 0; e <= size;  e++)
+                for(e = q + 1; e < size;  e++)
                 {
-                    if(q != 0 && nums[q] + nums[e] == target)
+                    if(nums[q] + nums[e] == target)
                     {
                         int x = q;
                         int y = e;
